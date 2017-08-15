@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    background-color: #023E54;
+    background: linear-gradient(325deg, rgba(2,62,84, 0.75), rgba(16,170,192, 0.55));
+    min-height: 100%;
+    min-width: 700px;
+    font-family: 'Raleway', sans-serif;   
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 710px;
+    max-width: 800px;
+}
+
+main {
+    min-width: 700px;
+    height: 430px;
+    padding: 30px 5px;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: -4px 5px 6px #023E54;
+}
+
+main > div {
+    padding: 15px;
+    text-align: center;
+}
+
+#hobbiton {
+    border-radius: 15px;
+    box-shadow: -4px 5px 6px rgba(0, 0, 0, 0.55);
+}
+
+#lotrQuote {
+    color: #001A23;
+    text-shadow: -0.5px 1px rgba(255, 253, 202, 0.35);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -55%;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 70%;
+}
